@@ -11,7 +11,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="backdrop-blur-sm h-16 flex flex-row fixed justify-around items-center w-screen top-0" style={{zIndex: 1}}>
+          <span>test</span>
+          <span>test</span>
+          <span>test</span>
+        </div>
+        {children}
+      </body>
     </html>
   )
 }
