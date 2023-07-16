@@ -42,6 +42,7 @@ function Home() {
                     eraseSpeed={50}
                     typingDelay={500}
                     eraseDelay={2500}
+                    
                     text={BannerStrings}
                     cursor={'_'}
                   />
