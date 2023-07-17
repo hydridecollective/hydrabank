@@ -5,7 +5,7 @@ export default function PackagesPage() {
     <section className="flex flex-col gap-y-6 w-full h-screen p-16 pt-16">
       <div className="flex flex-col gap-y-2 justify-center items-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-header lg:max-w-[72rem]">
-          <b className="bg-gradient-to-r from-orange-800 to-orange-400 bg-clip-text text-transparent">
+          <b className="bg-gradient-to-r from-[#b16318] to-[#d87718] bg-clip-text text-transparent">
             Packages and pricing
           </b>
         </h1>

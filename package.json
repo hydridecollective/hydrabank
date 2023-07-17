@@ -26,6 +26,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "autoprefixer": "^10.4.2",
+    "axios": "^1.4.0",
     "chalk": "^5.0.0",
     "daisyui": "^3.2.1",
     "next": "^13.4.10",
