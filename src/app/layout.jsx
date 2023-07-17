@@ -1,7 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Rubik, Golos_Text, Space_Mono } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: "--font-inter" });
+const rubik = Rubik({ subsets: ['latin'], variable: "--font-rubik" });
+const golos = Golos_Text({ subsets: ['cyrillic'], variable: "--font-golos" });
+const spacemono = Space_Mono({ weight: ["400", "700"], subsets: ['latin'], variable: "--font-spacemono" });
 
 export const metadata = {
   title: 'Hydrabank',
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${golos.variable} ${rubik.variable} ${spacemono.variable} font-sans`}>
         <div className="backdrop-blur-sm h-16 flex flex-row fixed justify-around items-center w-screen top-0" style={{zIndex: 1}}>
           <span>test</span>
           <span>test</span>

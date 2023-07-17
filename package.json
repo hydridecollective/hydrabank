@@ -42,5 +42,8 @@
     "tailwindcss-animatecss": "^3.0.4",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint-config-next": "13.4.10"
   }
 }
