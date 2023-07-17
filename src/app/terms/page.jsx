@@ -17,13 +17,15 @@ export default function Page() {
             <p>
               These Terms of Service (&quot;Terms&quot;) govern your use of the services provided by Hydride (&quot;Collective&quot;), including the system administration services provided by Hydrabank (&quot;Hydrabank&quot;). Please read these Terms carefully before using our services.
             </p>
-            <h3 className="text-lg font-medium">1. Intellectual Property</h3>
+            <h3 className="text-lg font-medium">1. Acceptance of Terms</h3>
             <p>
-              All intellectual property rights related to the services provided by Hydride, including but not limited to software, documentation, and any custom configurations, remain the property of Hydride or its licensors. You shall not reproduce, distribute, modify, or create derivative works of any part of the services without prior written consent from Hydride.
+            By accessing or using the services provided by Hydrabank, you agree to be bound by these Terms. If you do not agree to these Terms, you may not order our services.
+
+            All intellectual property rights related to the services provided by Hydrabank or Hydride, including (but not limited to) software, documentation, and any custom configurations, remain the property of Hydride or its licensors.
             </p>
-            <h3 className="text-lg font-medium">2. Acceptance of Terms</h3>
+            <h3 className="text-lg font-medium">2. Intellectual Property</h3>
             <p>
-              By accessing or using the services provided by Hydrabank, you agree to be bound by these Terms. If you do not agree to these Terms, you may not order our services.
+            All intellectual property rights related to the services provided by Hydrabank or Hydride, including (but not limited to) software, documentation, and any custom configurations, remain the property of Hydride or its licensors.
             </p>
             <h3 className="text-lg font-medium">3. Services</h3>
             <h3 className="text-md font-medium">3.1 System Administration Services</h3>
@@ -32,7 +34,7 @@ export default function Page() {
             </p>
             <h3 className="text-md font-medium">3.2 Your Compliance with Security Protocols</h3>
             <p>
-              Hydrabank strongly recommends that you follow our security protocols, including enabling two-factor authentication (2FA) and implementing our recommended security measures. While we strive to provide secure services, we cannot be held responsible for breaches or security incidents resulting from your failure to implement these protocols unless it can be proven to be our fault.
+              Hydrabank strongly recommends that you follow our security protocols, including enabling two-factor authentication &quot;2FA&quot; and implementing our recommended security measures. While we strive to provide secure services, we cannot be held responsible for breaches or security incidents resulting from your failure to implement these protocols unless it can be proven to be our fault.
             </p>
             <h3 className="text-lg font-medium">4. Payments and Refunds</h3>
             <h3 className="text-md font-medium">4.1 Payment</h3>
@@ -41,8 +43,7 @@ export default function Page() {
             </p>
             <h3 className="text-md font-medium">4.2 No Refunds or Chargebacks</h3>
             <p>
-              Once the services have been completed, refunds or chargebacks will not be permitted unless otherwise agreed upon in writing between you and the collective founder &quot;Dani&quot;. It is your responsibility to review and confirm the completion of services before making the final payment.
-            </p>
+            Once the services have been completed, refunds or chargebacks will not be permitted unless otherwise agreed upon in writing between you and the Collective. It is your responsibility to review and confirm the completion of services before making the final payment.            </p>
             <h3 className="text-lg font-medium">5. Limitation of Liability</h3>
             <p>
               To the maximum extent permitted by law, Hydride, its managers, directors, employees, and affiliates shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use our services, including but not limited to damages for loss of profits, data, or business.
