@@ -1,9 +1,9 @@
-export default async function Page() {
+export default function Page() {
     return (
       <section className="flex flex-col gap-y-6 w-full h-full p-16 pt-16">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-header lg:max-w-[72rem] mb-4">
-            <b className="bg-gradient-to-r from-[#b16318] to-[#d87718] bg-clip-text text-transparent">
+            <b className="bg-gradient-to-r from-orange-800 to-orange-400 bg-clip-text text-transparent">
               Legal (Terms of Service)
             </b>
           </h1>
@@ -15,7 +15,7 @@ export default async function Page() {
               </span>
             </h3>
             <p>
-              These Terms of Service ("Terms") govern your use of the services provided by Hydride ("Collective"), including the system administration services provided by Hydrabank ("Hydrabank"). Please read these Terms carefully before using our services.
+              These Terms of Service (&quot;Terms&quot;) govern your use of the services provided by Hydride (&quot;Collective&quot;), including the system administration services provided by Hydrabank (&quot;Hydrabank&quot;). Please read these Terms carefully before using our services.
             </p>
             <h3 className="text-lg font-medium">1. Intellectual Property</h3>
             <p>
@@ -30,7 +30,7 @@ export default async function Page() {
             <p>
               Hydride provides system administration services through its subsidiary, Hydrabank. These services include, but are not limited to, server management, network administration, security audits, and advice on best practices.
             </p>
-            <h3 className="text-md font-medium">3.2 Your compliance with Security Protocols</h3>
+            <h3 className="text-md font-medium">3.2 Your Compliance with Security Protocols</h3>
             <p>
               Hydrabank strongly recommends that you follow our security protocols, including enabling two-factor authentication (2FA) and implementing our recommended security measures. While we strive to provide secure services, we cannot be held responsible for breaches or security incidents resulting from your failure to implement these protocols unless it can be proven to be our fault.
             </p>
@@ -41,7 +41,7 @@ export default async function Page() {
             </p>
             <h3 className="text-md font-medium">4.2 No Refunds or Chargebacks</h3>
             <p>
-              Once the services have been completed, refunds or chargebacks will not be permitted unless otherwise agreed upon in writing between you and the collective founder "Dani". It is your responsibility to review and confirm the completion of services before making the final payment.
+              Once the services have been completed, refunds or chargebacks will not be permitted unless otherwise agreed upon in writing between you and the collective founder &quot;Dani&quot;. It is your responsibility to review and confirm the completion of services before making the final payment.
             </p>
             <h3 className="text-lg font-medium">5. Limitation of Liability</h3>
             <p>

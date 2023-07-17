@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Page from './Page';
 
 const DataPage = ({ ip, browser, agent, otherData }) => {
@@ -7,7 +6,6 @@ const DataPage = ({ ip, browser, agent, otherData }) => {
   
   export const getServerSideProps = async (context) => {
     const { req } = context;
-    // Get the browser and agent data from the request object
     const browser = req.headers['user-agent'];
     const agent = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     const ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
