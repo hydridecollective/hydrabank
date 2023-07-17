@@ -50,8 +50,7 @@ export default function Page() {
             </p>
             <h3 className="text-lg font-medium">6. Governing Law and Jurisdiction</h3>
             <p>
-              These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles. Any disputes arising out of or relating to these Terms or the services provided by Hydride shall be exclusively resolved in the state and federal courts located in California.
-            </p>
+            These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles. Any disputes arising out of or relating to these Terms or the services provided by Hydride shall be exclusively resolved in the state and federal courts located in California.            </p>
             <h3 className="text-lg font-medium">7. Miscellaneous</h3>
             <h3 className="text-md font-medium">7.1 Entire Agreement</h3>
             <p>
