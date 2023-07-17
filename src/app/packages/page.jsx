@@ -15,7 +15,7 @@ export default function PackagesPage() {
             <pre data-prefix=">" className="text-error text-lg font-bold"><code>Misc Hourly Rate: $15 an hour (Doesn't apply to anything listed below)</code></pre>
             <pre data-prefix=">" className="text-neutral-400"><code><BiBox className="inline-block text-2xl" /> Plans</code></pre>
             <pre data-prefix="" className="text-neutral-400"><code>➥ Basic Plan (SSH Setup w/ keys and a Basic Firewall) - $10 USD</code></pre>
-            <pre data-prefix="" className="text-neutral-400"><code>➥ Enterprise Plan for Monthly System Administration Services (Fully secured and monitoring) - Contact us</code></pre>
+            <pre data-prefix="" className="text-neutral-400"><code>➥ Enterprise Plan for Monthly System Administration Services (Fully secured and monitoring) -  Contact us! </code></pre>
             <pre data-prefix=">" className="text-neutral-400 gap"><code><BiServer className="inline-block text-2xl" /> Extras</code></pre>
             <pre data-prefix="" className="text-neutral-400"><code>➥ Pterodactyl Panel Install - $10 USD</code></pre>
             <pre data-prefix="" className="text-neutral-400"><code>➥ Database Install - $6 USD Per DB Install</code></pre>
