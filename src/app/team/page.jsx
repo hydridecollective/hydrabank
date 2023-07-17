@@ -10,7 +10,7 @@ export default function PackagesPage() {
           <div className="flex gap-x-4">
             <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
               <div className="card shadow-2xl m-4 bg-neutral-700">
-                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-28 h-28 mx-auto my-6">
+                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
                   <img className="w-full h-full object-contain" src="https://cdn.discordapp.com/attachments/1096623864722755654/1097016378889871430/IMG_1589.png" alt="Emily" />
                 </figure>
                 <div className="card-body">
@@ -23,10 +23,9 @@ export default function PackagesPage() {
               </div>
             </div>
             
-            {/* Second Card */}
             <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
               <div className="card shadow-2xl m-4 bg-neutral-700">
-                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-28 h-28 mx-auto my-6">
+                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
                   <img className="w-full h-full object-contain" src="https://cdn.discordapp.com/avatars/328511703144988675/ac91d144de6e33f273eaa731c64483d3.webp" alt="Aurora" />
                 </figure>
                 <div className="card-body">
@@ -39,10 +38,9 @@ export default function PackagesPage() {
               </div>
             </div>
             
-            {/* Third Card */}
             <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
               <div className="card shadow-2xl m-4 bg-neutral-700">
-                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-28 h-28 mx-auto my-6">
+                <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
                   <img className="w-full h-full object-cover" src="https://cdn.discordapp.com/attachments/1057318231301435446/1130333145401663549/168956282298139123.png" alt="Dani" />
                 </figure>
                 <div className="card-body">
