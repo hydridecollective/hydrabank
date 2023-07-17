@@ -12,7 +12,7 @@ export default function PackagesPage() {
         <div className="mockup-code bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left max-w-[100rem] w-full drop-shadow-2xl md:gap-y-4">
           <div className="bg-gray rounded-md shadow-md p-6">
             <pre data-prefix="$"><code>cat prices.md</code></pre>
-            <pre data-prefix=">" className="text-error text-lg font-bold"><code>Misc Hourly Rate: $15 an hour (Doesn't apply to anything listed below)</code></pre>
+            <pre data-prefix=">" className="text-error text-lg font-bold"><code>Misc Hourly Rate: $15 an hour (Doesn&apos;t apply to anything listed below)</code></pre>
             <pre data-prefix=">" className="text-neutral-400"><code><BiBox className="inline-block text-2xl" /> Plans</code></pre>
             <pre data-prefix="" className="text-neutral-400"><code>➥ Basic Plan (SSH Setup w/ keys and a Basic Firewall) - $10 USD</code></pre>
             <pre data-prefix="" className="text-neutral-400"><code>➥ Enterprise Plan for Monthly System Administration Services (Fully secured and monitoring) -  Contact us! </code></pre>
