@@ -18,6 +18,8 @@
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
     "@mui/icons-material": "^5.3.1",
     "@mui/material": "^5.3.1",
     "@testing-library/jest-dom": "^5.16.1",
