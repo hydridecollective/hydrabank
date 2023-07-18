@@ -15,7 +15,7 @@ export default function Page() {
               </span>
             </h3>
             <p>
-              These Terms of Service (&quot;Terms&quot;) govern your use of the services provided by Hydride (&quot;Collective&quot;), including the system administration services provided by Hydrabank (&quot;Hydrabank&quot;). Please read these Terms carefully before using our services.
+              These Terms of Service (&quot;Terms&quot;) govern your use of the services provided by Hydride through Hydrabank(&quot;Collective&quot;), including the system administration services provided by Hydrabank (&quot;Hydrabank&quot;). Please read these Terms carefully before using our services.
             </p>
             <h3 className="text-lg font-medium">1. Acceptance of Terms</h3>
             <p>
@@ -39,7 +39,7 @@ export default function Page() {
             <h3 className="text-lg font-medium">4. Payments and Refunds</h3>
             <h3 className="text-md font-medium">4.1 Payment</h3>
             <p>
-              You agree to pay the fees for the services provided by Hydride as outlined in the agreed-upon service agreement. Payment terms and methods will be specified in the agreement.
+              You agree to pay the fees for the services provided by Hydride through Hydrabank as outlined in the agreed-upon service agreement. Payment terms and methods will be specified in the agreement.
             </p>
             <h3 className="text-md font-medium">4.2 No Refunds or Chargebacks</h3>
             <p>
@@ -50,7 +50,7 @@ export default function Page() {
             </p>
             <h3 className="text-lg font-medium">6. Governing Law and Jurisdiction</h3>
             <p>
-            These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles. Any disputes arising out of or relating to these Terms or the services provided by Hydride shall be exclusively resolved in the state and federal courts located in California.            </p>
+            These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws principles. Any disputes arising out of or relating to these Terms or the services provided by Hydride through Hydrabank shall be exclusively resolved in the state and federal courts located in California.            </p>
             <h3 className="text-lg font-medium">7. Miscellaneous</h3>
             <h3 className="text-md font-medium">7.1 Entire Agreement</h3>
             <p>
