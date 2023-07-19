@@ -17,13 +17,9 @@ const BannerStrings = [
 function Home() {
   return <>
       <div className="h-screen overflow-hidden">
-        <Image
-          alt="background"
-          src="/assets/img/startup-photo.jpg"
-          width={1920}
-          height={1080}
-          className="h-full min-w-full absolute top-0 object-cover blur-sm brightness-50"
-        ></Image>
+        <div className="h-full w-full absolute top-0 object-cover">
+          <div className="h-full w-full blur-sm brightness-50 bg-img"></div>
+        </div>
         <div className="h-full flex flex-col justify-center">
           <Fade delay={100} triggerOnce>
             <h1 className="PageBannerTitle text-white" id="PageBannerTitle" style={{ zIndex: '1' }}>

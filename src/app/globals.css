@@ -106,3 +106,11 @@ body {
 
 .bg-stripes-red-500 {
     --stripes-color:rgba(220,38,38,0.4)}
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-image: url('/assets/img/startup-photo.jpg')
+}
