@@ -20,7 +20,7 @@ export const Field = ({ fieldName, disabled, fieldPlaceholder, id, type, resizea
                 required
                 disabled={disabled}
                 placeholder={fieldPlaceholder} 
-                className={`${disabled ? "hover:cursor-not-allowed bg-stripes bg-stripes-gray-600" : "bg-transparent"} w-full h-48 px-4 py-2 text-lg placeholder:font-normal font-header ${weighted ? "" : "font-normal"} border-[1.5px] border-gray-600 rounded-md bg-transparent focus:outline-none focus:ring-[2px] focus:ring-purple-800 focus:border-transparent`}
+                className={`${disabled ? "hover:cursor-not-allowed bg-strip`es bg-stripes-gray-600" : "bg-transparent"} w-full h-48 px-4 py-2 text-lg placeholder:font-normal font-header ${weighted ? "" : "font-normal"} border-[1.5px] border-gray-600 rounded-md bg-transparent focus:outline-none focus:ring-[2px] focus:ring-purple-800 focus:border-transparent`}
                 onChange={e => form.setForm({ ...form.form, [id]: e.target.value })}
              />
         </div>

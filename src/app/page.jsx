@@ -1,11 +1,9 @@
 "use client";
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 import { faTerminal, faShield, faBook, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons';
 import ReactTypingEffect from 'react-typing-effect';
 import { Fade } from 'react-awesome-reveal';
-import Image from 'next/image';
 
 const BannerStrings = [
   'Minecraft server',
@@ -15,7 +13,8 @@ const BannerStrings = [
 ].sort(() => Math.random() - 0.5);
 
 function Home() {
-  return <>
+  return (
+    <>
       <div className="h-screen overflow-hidden">
         <div className="h-full w-full absolute top-0 object-cover">
           <div className="h-full w-full blur-sm brightness-50 bg-img"></div>
@@ -135,7 +134,8 @@ function Home() {
           </div>
         </div>
       </div>
-  </>;
+    </>
+  );
 }
 
 export default Home;
