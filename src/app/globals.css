@@ -1,13 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --hydra-dark: #191919;
+    --foreground-rgb: 25, 25, 25;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
   }
@@ -30,9 +26,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
 @layer utilities {
 
 }
+
 html {
     @apply bg-hydra-dark;
 }
@@ -49,63 +47,70 @@ body {
     animation: AnimationName 3s ease infinite;
 }
 
-.Header {
-    @apply text-white font-bold text-4xl font-BreezeHeader px-5;
-  }
-  
-  .Text {
-    @apply text-white text-2xl font-BreezeText px-12;
-  }
-  
-  .Tagline {
-    @apply text-white text-base font-BreezeText px-12 text-center;
-  }
-  
-  .ResumeHeader {
-    @apply text-blue-300 font-bold text-4xl font-BreezeHeader px-5;
-  }
-  
-  .ResumeText {
-    @apply text-blue-300 text-2xl font-BreezeText px-12;
-  }
-  
-  .ResumeTagline {
-    @apply text-blue-300 text-2xl font-BreezeText px-12 italic text-center;
-  }
-  
-  .Button {
-    @apply text-white font-bold text-2xl font-BreezeHeader rounded-xl border-8 border-blue-600 bg-blue-600;
-  }
-  
-  .Body {
-    @apply h-screen;
-  }
-  
-  .BodyColour {
-    @apply bg-gray-800;
-  }
-  
-  .PageBannerTitle {
-    @apply font-extrabold text-3xl md:text-5xl lg:text-6xl py-4 font-BreezeHeader px-12 md:px-36 bg-clip-text text-center md:text-left hidden sm:inline-block;
-  }
-  
-  .PageBannerText {
-    @apply font-medium text-2xl lg:text-4xl py-2 font-BreezeMono px-12 md:px-36 bg-clip-text inline-block text-center md:text-left;
+@layer utilities {
+    .bg-gradient-muted {
+        @apply bg-gradient-to-tr from-[#803cd3] to-[#9a64e3];
+    }
+
+    .bg-gradient-brand {
+        @apply bg-gradient-to-r from-violet-400 to-orange-400;
+    }
 }
-  
-  .PageBannerPhoto {
-    @apply h-48 sm:h-64 md:h-80 lg:h-[94vh] bg-center flex items-center;
-  }
-  
-  .homeVideoPlayer {
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-  }
-  
-  .HoverText {
-    background-size: cover;
-    position: absolute;
-    display: inline-block;
-    z-index: -1;
-  }
+
+.Button {
+  @apply text-white font-bold text-2xl font-header rounded-xl border-8 border-blue-600 bg-blue-600;
+}
+
+.PageBannerTitle {
+  @apply font-extrabold text-3xl md:text-5xl lg:text-6xl py-4 font-header px-12 md:px-36 bg-clip-text text-center md:text-left hidden sm:inline-block;
+}
+
+.PageBannerText {
+  @apply font-medium text-2xl lg:text-4xl py-2 font-spacemono px-12 md:px-36 bg-clip-text inline-block text-center md:text-left;
+}
+
+.HoverText {
+  background-size: cover;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+
+.col {
+  max-width: 380px;
+  margin: 20px;
+  flex-basis: 44.44%;
+  flex-grow: 1;
+}
+.fp-watermark {
+    @apply hidden;
+}
+
+#fp-nav {
+    @apply rounded-full bg-white;
+}
+
+.bg-stripes {
+    background-image: linear-gradient(135deg,var(--stripes-color) 12.5%,transparent 12.5%,transparent 50%,var(--stripes-color) 50%,var(--stripes-color) 62.5%,transparent 62.5%,transparent 100%);
+    background-size: 5.66px 5.66px
+}
+
+.bg-stripes-white {
+    --stripes-color:hsla(0,0%,100%,0.4)}
+
+.bg-stripes-gray-600 {
+    --stripes-color:rgba(75,85,99,0.4)}
+
+.bg-stripes-amber-500 {
+    --stripes-color:rgba(245,158,11,0.4)}
+
+.bg-stripes-red-500 {
+    --stripes-color:rgba(220,38,38,0.4)}
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-image: url('/assets/img/startup-photo.jpg')
+}

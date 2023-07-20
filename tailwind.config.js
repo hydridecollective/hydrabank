@@ -5,10 +5,12 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          "BreezeHeader": ['var(--font-rubik)', 'Rubik', 'system-ui', 'sans-serif'],
-          "BreezeText": ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
-          "BreezeMono": ["Space Mono"],
-          "BreezeAltHeader": ["Red Hat Display"]
+          header: ['var(--font-rubik)', 'Rubik', 'system-ui', 'sans-serif'],
+          sans: ['var(--font-golos)', 'Golos Text', 'system-ui', 'sans-serif'],
+          rubik: ['var(--font-rubik)', 'Rubik', 'system-ui', 'sans-serif'],
+          golos: ['var(--font-golos)', 'Golos Text', 'system-ui', 'sans-serif'],
+          inter: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
+          spacemono: ['var(--font-spacemono)', 'Space Mono', 'system-ui', 'monospace'],
         },
         colors: {
           "hydra-dark": "#191919"
