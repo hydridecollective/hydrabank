@@ -13,7 +13,7 @@ export default function PackagesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12">
           <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
             <div className="card shadow-2xl m-4 bg-neutral-700">
-              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
+              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto mt-6">
                 <Image
                   src="https://cdn.discordapp.com/attachments/1096623864722755654/1097016378889871430/IMG_1589.png"
                   alt="Emily"
@@ -23,10 +23,12 @@ export default function PackagesPage() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title mt-4">Emily</h2>
+                <h2 className="card-title">Emily</h2>
                 <h3 className="mt-1 text-error">IT Director</h3>
                 <p className="text-sm">
-                  Hey there! I&apos;m Emily, a passionate Systems Administrator and Network Security Specialist with 6+ years of experience. I specialize in Linux, ensuring system stability, security, and performance. At 22, I bring fresh perspectives, innovation, and inclusivity as a transfem individual to the tech community.
+                  Hey there! I&apos;m Emily, a passionate Systems Administrator and Network Security Specialist with 6+ years of experience. I specialize in Linux, ensuring system stability, security, and performance. 
+                  <br /> <br />
+                  At 22, I bring fresh perspectives, innovation, and inclusivity as a transfem individual to the tech community.
                 </p>
               </div>
             </div>
@@ -34,7 +36,7 @@ export default function PackagesPage() {
 
           <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
             <div className="card shadow-2xl m-4 bg-neutral-700">
-              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
+              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto mt-6">
                 <Image
                   src="https://cdn.discordapp.com/avatars/328511703144988675/ac91d144de6e33f273eaa731c64483d3.webp"
                   alt="Aurora"
@@ -44,7 +46,7 @@ export default function PackagesPage() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title mt-4">Aurora</h2>
+                <h2 className="card-title">Aurora</h2>
                 <h3 className="mt-1 text-error">Infrastructure Manager</h3>
                 <p className="text-sm">
                   I&apos;m Alpha, also known as Aurora, and I oversee Hydrabank&apos;s infrastructure and systems. I&apos;m enthusiastic about hardware and have a strong inclination towards managing UNIX systems, including Servers and Desktops, as well as system administration.
@@ -55,7 +57,7 @@ export default function PackagesPage() {
 
           <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-100">
             <div className="card shadow-2xl m-4 bg-neutral-700">
-              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
+              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto mt-6">
                 <Image
                   src="/assets/img/val.jpg"
                   alt="Val"
@@ -65,7 +67,7 @@ export default function PackagesPage() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title mt-4">Val</h2>
+                <h2 className="card-title">Val</h2>
                 <h3 className="mt-1 text-error">Hydride Leadership</h3>
                 <p className="text-sm">
                   Hi. my name is Valerie or Val. My official mission is to represent Hydride, but I am actually a floating figure and help every division. My job here is to procure servers and help clients.
@@ -80,7 +82,7 @@ export default function PackagesPage() {
 
           <div className="mockup-window max-w-[80rem] bg-base-300 bg-neutral-800 md:mt-8 mb-4 text-primary-content text-left w-80 h-fit">
             <div className="card shadow-2xl m-4 bg-neutral-700">
-              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto my-6">
+              <figure className="rounded-full border-4 border-orange-500 overflow-hidden w-24 h-24 mx-auto mt-6">
                 <Image
                   src="/assets/img/kermit.webp"
                   alt="Dani"
@@ -90,12 +92,13 @@ export default function PackagesPage() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title mt-4">Dani</h2>
+                <h2 className="card-title">Dani</h2>
                 <h3 className="mt-1 text-error">Hydride Founder</h3>
                 <p className="text-sm">
-                    howdy, y&apos;all! the name&apos;s dani. i ain&apos;t really involved with things here at hydrabank and mostly let emily/alpha/val do their thing, but i&apos;m the founder of the <a href="https://hydride.dev" target="_blank" className="underline hover:text-gray-200" rel="noreferrer noopener">hydride</a> collective.
-                    <br />
+                    howdy, y&apos;all! the name&apos;s dani. i ain&apos;t really involved with things here at hydrabank and mostly let emily/alpha/val do their thing, but i&apos;m the founder of the hydride collective.
                     over there, i manage general operations/infrastructure and oversee web development and UI design.
+                    <br /> <br />
+                    i didn&apos;t make this website, but i did do <Link href="https://hydride.dev" className="text-white underline hover:text-gray-300" target="_blank" rel="noreferrer noopener">hydride.dev</Link>. check it out if you&apos;re interested in learning more about us!
                 </p>
               </div>
             </div>
