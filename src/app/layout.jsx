@@ -11,7 +11,7 @@ const spacemono = Space_Mono({ weight: ["400", "700"], subsets: ['latin'], varia
 
 export const metadata = {
   title: 'Hydrabank',
-  description: 'A collective striving to provide the best security for people.',
+  description: 'Striving to provide the best security for your cloud systems. Part of the Hydride Collective.',
 }
 
 export default function RootLayout({ children }) {
