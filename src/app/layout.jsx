@@ -1,6 +1,8 @@
 import './globals.css'
 import { Inter, Rubik, Golos_Text, Space_Mono } from 'next/font/google'
 import Image from 'next/image'
+import { Footer } from './Footer';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const inter = Inter({ subsets: ['latin'], variable: "--font-inter" });
 const rubik = Rubik({ subsets: ['latin'], variable: "--font-rubik" });
@@ -18,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${golos.variable} ${rubik.variable} ${spacemono.variable} font-sans min-h-screen`}>
         {header()}
         {children}
-        {footer()}
+        <Footer />
       </body>
     </html>
   );
@@ -50,8 +52,8 @@ const header = () =>
   </div>;
 
 const renderListItems = () => <>
-  <li><a href="/contact">Contact Us</a></li>
-  <li><a href="/packages">Prices and Services</a></li>
+  <li><a href="/packages">Pricing</a></li>
+  <li><a href="https://hydride.dev/contact" className="flex flex-row items-center gap-x-2">Contact <FaExternalLinkAlt className="text-sm" /></a></li>
   {/* <li>
     <details>
       <summary>
@@ -63,7 +65,4 @@ const renderListItems = () => <>
       </ul>
     </details>
   </li> */}
-</>;
-
-const footer = () => <>
 </>;
