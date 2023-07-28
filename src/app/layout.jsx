@@ -53,6 +53,7 @@ const header = () =>
 
 const renderListItems = () => <>
   <li><a href="/packages">Pricing</a></li>
+  <li><a href="/team">Team</a></li>
   <li><a href="https://hydride.dev/contact" className="flex flex-row items-center gap-x-2">Contact <FaExternalLinkAlt className="text-sm" /></a></li>
   {/* <li>
     <details>
