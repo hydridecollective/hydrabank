@@ -92,7 +92,7 @@ function Home() {
 
 function renderCard(icon, title, description) {
   return (
-    <div className="col h-fit flex flex-col rounded-xl border-gray-600 border-2">
+    <div className="col flex flex-col rounded-xl border-gray-600 border-2">
       <div className="flex flex-row items-center gap-x-4 border-b-2 border-gray-600 p-4">
         <FontAwesomeIcon icon={icon} size="lg" className="text-orange-500" />
         <span className="text-xl sm:text-2xl font-semibold">{title}</span>
